@@ -10,7 +10,7 @@ function checkForFcConsentRoot()
     // Set current pages tally to 0
     chrome.storage.local.set({"currentPageTally": 0 });
 
-    var targetNode = document.querySelectorAll(consentRoot)[0];
+    var targetNode = document.querySelectorAll(fc_consentRoot)[0];
     if(!targetNode) 
     {
         window.setTimeout(checkForFcConsentRoot,500);
