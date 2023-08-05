@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Advertisement Decline",
+    "version": "0.1",
+    "version_name": "InDev",
+    "description": "Automatically Declines all 'legitimate interests' from the Cookies / Advertisement modals on any website.",
+    "author": "Connor Jolley",
+    "action": 
+    {
+        "default_popup": "stats.html"
+    },
+    "permissions": 
+    [
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": 
+    [
+        {
+            "js": ["scripts/content.js"],
+            "matches": ["https://*/*", "http://*/*"],
+            "run_at": "document_end"
+        }
+    ]
+}
