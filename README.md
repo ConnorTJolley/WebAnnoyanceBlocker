@@ -1,8 +1,11 @@
-# AutoDeclineCookies
- Chrome Extension which automatically manages and declines ALL options marked as "legitimate interest" on the commonly used "Cookie First" integration
+# WebAnnoyanceBlocker
+Chrome Extension which;
+- Automatically manages and declines ALL options marked as "legitimate interest" on the commonly used "Cookie First" integration
+- Skips the "AdBlock is not allowed" message on YouTube and auto-plays the video that was paused to display the message
+- Auto closes some popup modals prompting you to disable AdBlock
 
 # Privacy
-AutoDeclineCookies does **NOT** collect any information related to the user or their browsing history / browser.
+WebAnnoyanceBlocker does **NOT** collect any information related to the user or their browsing history / browser.
 
 # How to Install
 - In your chrome browser, navigate to chrome://extensions
