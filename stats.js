@@ -16,7 +16,6 @@ chrome.tabs.query(query, callback);
 var currentPageElement = document.getElementById("page_blocked_count");
 var totalElement = document.getElementById("total_blocked_count");
 
-
 var totalTally = chrome.storage.local.get("allTimeTally", function(result) 
 {
     totalTally = result.allTimeTally === undefined ? 
